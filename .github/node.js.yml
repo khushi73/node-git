@@ -45,7 +45,7 @@ jobs:
         username: root
         host: 68.183.88.222
         password: ${{ secrets.SSH_PASSWORD }}
-        script: 'cd /var/www/blog_test && ./server_deploy.sh'
+        script: 'cd /var/www/strapi_test && ./server_deploy.sh'
 
        
   deploy_to_production:
@@ -60,4 +60,4 @@ jobs:
         username: root
         host: 68.183.88.222
         password: ${{ secrets.SSH_PASSWORD }}
-        script: 'cd /var/www/blog_prod && ./server_deploy.sh'
+        script: 'cd /var/www/strapi_prod && ./server_deploy.sh'
