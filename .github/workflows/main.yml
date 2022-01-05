@@ -6,11 +6,12 @@ on:
       - prod
       - develop
       - test
-   push:
-     branches:
-       - prod
-       - develop
-       - test
+  push:
+    branches:
+      - prod
+      - develop
+      - test
+      
 
 jobs:
   build:
